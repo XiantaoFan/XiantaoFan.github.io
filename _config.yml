@@ -7,7 +7,7 @@
 
 # Site Settings
 locale                   : "en-US"
-title                    : "Xiantao Fan"
+title                    : "Dr. Xiantao Fan"
 title_separator          : "-"
 name                     : &name "Xiantao Fan"
 description              : &description "personal description"
@@ -80,41 +80,41 @@ analytics:
 
 # Site Author
 author:
-  name             : "Your Sidebar Name"
+  name             : "Xiantao Fan"
   avatar           : "profile.png"
-  bio              : "Your biography for the left-hand sidebar"
-  location         : "Location"
+  bio              : "Postdoc in University of Notre Dame"
+  location         : "South Bend"
   employer         :
-  pubmed           : "https://www.ncbi.nlm.nih.gov/pubmed/?term=john+snow"
-  googlescholar    : "http://yourfullgooglescholarurl.com"
-  email            :
-  researchgate     :  # example: "https://www.researchgate.net/profile/yourprofile"
-  uri              :
-  bitbucket        :
-  codepen          :
-  dribbble         :
-  flickr           :
-  facebook         :
-  foursquare       :
-  github           : "academicpages"
-  google_plus      :
-  keybase          :
-  instagram        :
-  impactstory      : #"https://profiles.impactstory.org/u/xxxx-xxxx-xxxx-xxxx"
-  lastfm           :
-  linkedin         :
-  orcid            : "http://orcid.org/yourorcidurl"
-  pinterest        :
-  soundcloud       :
-  stackoverflow    : # http://stackoverflow.com/users/123456/username
-  steam            :
-  tumblr           :
-  twitter          : "replacethistwitterhandle"
-  vine             :
-  weibo            :
-  xing             :
-  youtube          :
-  wikipedia        :
+  # pubmed           : "https://www.ncbi.nlm.nih.gov/pubmed/?term=john+snow"
+  googlescholar    : "https://scholar.google.com/citations?user=YuwG4rcAAAAJ&hl=en"
+  email            : "xfan2@nd.edu"
+  researchgate     :  "https://www.researchgate.net/profile/Xiantao-Fan"# example: "https://www.researchgate.net/profile/yourprofile"
+  # uri              :
+  # bitbucket        :
+  # codepen          :
+  # dribbble         :
+  # flickr           :
+  # facebook         :
+  # foursquare       :
+  # github           : "academicpages"
+  # google_plus      :
+  # keybase          :
+  # instagram        :
+  # impactstory      : #"https://profiles.impactstory.org/u/xxxx-xxxx-xxxx-xxxx"
+  # lastfm           :
+  # linkedin         :
+  # orcid            : "http://orcid.org/yourorcidurl"
+  # pinterest        :
+  # soundcloud       :
+  # stackoverflow    : # http://stackoverflow.com/users/123456/username
+  # steam            :
+  # tumblr           :
+  # twitter          : "replacethistwitterhandle"
+  # vine             :
+  # weibo            :
+  # xing             :
+  # youtube          :
+  # wikipedia        :
 
 
 # Reading Files
