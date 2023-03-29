@@ -11,30 +11,31 @@ redirect_from:
 
 Education
 ======
-* B.S. in GitHub, GitHub University, 2012
-* M.S. in Jekyll, GitHub University, 2014
-* Ph.D in Version Control Theory, GitHub University, 2018 (expected)
+* B.S. in Tianjin University, China, 2016
+* M.S. in Tianjin University, China, 2022
+* Ph.D in Tianjin University, China, 2022
 
-Work experience
+Academic Experience
 ======
-* Summer 2015: Research Assistant
-  * Github University
-  * Duties included: Tagging issues
-  * Supervisor: Professor Git
+* Postdoctoral Scholar, 05/2022-Present
+  * Aerospace and Mechanical Engineering, University of Notre Dame, USA
 
-* Fall 2015: Research Assistant
-  * Github University
-  * Duties included: Merging pull requests
-  * Supervisor: Professor Hub
+
   
-Skills
+Research Area
 ======
-* Skill 1
-* Skill 2
-  * Sub-skill 2.1
-  * Sub-skill 2.2
-  * Sub-skill 2.3
-* Skill 3
+* Fluid-solid interaction (FSI)
+  * Flow-induced vibration 
+* Energy harvesting
+  * Wind energy
+  * Renewable energy
+* CFD in FSI
+  * Direct numerical simulations (DNS)
+  * Large-eddy simulations (LES)
+  * Wall-bounded turbulence
+* Machine learning in fluid dynamics
+  * Physics-informed machine learning
+  * Differentiable programming
 
 Publications
 ======
@@ -48,12 +49,15 @@ Talks
     {% include archive-single-talk-cv.html %}
   {% endfor %}</ul>
   
-Teaching
+<!-- Teaching
 ======
   <ul>{% for post in site.teaching %}
     {% include archive-single-cv.html %}
-  {% endfor %}</ul>
+  {% endfor %}</ul> -->
   
 Service and leadership
 ======
-* Currently signed in to 43 different slack teams
+* Reviewer
+  * Ocean Engineering, International Journal of Mechanical Sciences, Physics of Fluids, Scientific Reports
+* Member
+  * AGU, APS
