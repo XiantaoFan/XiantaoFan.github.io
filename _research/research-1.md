@@ -1,6 +1,6 @@
 ---
 title: "Fluid-structure interactions"
-excerpt: "Short description of portfolio item number 1<br/><img src='/images/500x300.png'>"
+excerpt: "Mutiscale FSI and control <br/><img src='/images/FSI.png'>"
 collection: research
 ---
 
