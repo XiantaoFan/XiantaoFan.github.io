@@ -1,12 +1,12 @@
 ---
-title: "Fluid-structure interactions"
-excerpt: "Mutiscale FSI and control <br/><img src='/images/FSI.png'>"
+title: "Machine learning in fluid dynamics"
+excerpt: "AI for Science <br/><img src='/images/Machine_learning.png'>"
 collection: research
 ---
 
-Flow-induced vibration
+Physics-informed machine learning
 ======
 
-Aerodynamics
+Differentiable programming
 ======
 

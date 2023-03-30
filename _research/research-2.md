@@ -1,11 +1,12 @@
 ---
-title: "Energy harvesting"
-excerpt: "Energy harvesting by FSI<br/><img src='/images/Energy_harvesting.png'>"
+title: "Fluid-structure interactions"
+excerpt: "Mutiscale FSI and control <br/><img src='/images/FSI.png'>"
 collection: research
 ---
 
-Wind Turbine
+Flow-induced vibration
 ======
 
-FIV-WEH
+Aerodynamics
 ======
+
