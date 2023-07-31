@@ -54,6 +54,20 @@ Publications
   <ul>{% for post in site.teaching %}
     {% include archive-single-cv.html %}
   {% endfor %}</ul> -->
+
+HONORS AND AWARDS
+======
+* 17th USNCCM ( U. S. National Congress on Computational Mechanics) Travel Award.
+
+* 2022-2023 ND Energy/ECI/CCI Postdoctoral Fellowship.
+
+* 2021 National Scholarship for Postgraduates by Ministry of Education of China.
+
+* 2019 Rudy Scavuzzo Student Paper Symposium award (Ph. D Group) by ASME.
+
+* 2018 93-Yinghua Scholarship by Tianjin University.
+
+* 2016 Tianjin Municipal People's Government Scholarship by Tianjin Government.
   
 Service  Activities
 ======
