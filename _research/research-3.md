@@ -1,11 +1,7 @@
 ---
 title: "FSI/turbulence physics in versatile applications"
-excerpt: "Physics and engineering applications<br/><img src='/images/thrust2.png'>"
+# excerpt: "Physics and engineering applications<br/><img src='/images/thrust2.png'>"
 collection: research
 ---
 
-Wind Turbine
-======
-
-FIV-WEH
-======
+excerpt: "Physics and engineering applications<br/><img src='/images/thrust2.png'>"
