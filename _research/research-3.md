@@ -4,4 +4,4 @@ title: "FSI/turbulence physics in versatile applications"
 collection: research
 ---
 
-excerpt: "Physics and engineering applications<br/><img src='/images/thrust2.png'>"
+<br/><img src='/images/thrust2.png'>"
