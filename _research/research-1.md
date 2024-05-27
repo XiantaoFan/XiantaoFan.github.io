@@ -1,12 +1,12 @@
 ---
-title: "Machine learning in fluid dynamics"
-excerpt: "AI for Science <br/><img src='/images/Machine_learning.png'>"
+title: "Overview"
+excerpt: "Fluid-structure interactions (FSI) and turbulence <br/><img src='/images/overview.png'>"
 collection: research
----
+<!-- ---
 
 Physics-informed machine learning
 ======
 
 Differentiable programming
-======
+====== -->
 

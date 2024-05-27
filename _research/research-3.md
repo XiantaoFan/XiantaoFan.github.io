@@ -1,6 +1,6 @@
 ---
-title: "Energy harvesting"
-excerpt: "Energy harvesting by FSI<br/><img src='/images/Energy_harvesting.png'>"
+title: "FSI/turbulence physics in versatile applications"
+excerpt: "Physics and engineering applications<br/><img src='/images/thrust2.png'>"
 collection: research
 ---
 
