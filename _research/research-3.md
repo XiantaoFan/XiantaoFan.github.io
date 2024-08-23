@@ -1,7 +1,10 @@
 ---
 title: "FSI/turbulence physics in versatile applications"
-# excerpt: "Physics and engineering applications<br/><img src='/images/thrust2.png'>"
+excerpt: "<br/><img src='/images/thrust2.png'>"
 collection: research
 ---
 
-<br/><img src='/images/thrust2.png'>"
+
+<video width="320" height="240" controls>
+  <source src="/images/thrust2.mp4" type="video/mp4">
+</video>
