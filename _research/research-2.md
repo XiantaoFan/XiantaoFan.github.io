@@ -4,7 +4,7 @@ excerpt: <br/><img src='/images/thrust1.png'>
 collection: research
 ---
 
-<video width="640" height="480" controls>
+<video width="960" height="720" controls>
   <source src="/images/thrust1.mp4" type="video/mp4">
 </video>
 
