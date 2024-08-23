@@ -57,6 +57,8 @@ Publications
 
 HONORS AND AWARDS
 ======
+* 2023-2024 ND Energy/ECI/CCI Postdoctoral Fellowship.
+
 * 17th USNCCM ( U. S. National Congress on Computational Mechanics) Travel Award.
 
 * 2022-2023 ND Energy/ECI/CCI Postdoctoral Fellowship.
