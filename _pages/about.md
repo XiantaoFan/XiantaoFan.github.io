@@ -9,7 +9,7 @@ redirect_from:
 ---
 
 
-I'm currently a Postdoc at University of Notre Dame, working with Prof. Jian-Xun Wang. I also work at ND-ECI, funded by ND-ECI, ND-Energy and CCI Postdoctoral Fellowships. My research interest is Fluid-structures interactions and turbulence. 
+I'm currently a Postdoc at University of Notre Dame, working with Prof. Jian-Xun Wang. I also work at ND-ECI, funded by ND-ECI, ND-Energy and CCI Postdoctoral Fellowships. 
 
 My research interests lie at fluid-structure interactions (FSI) and turbulence, with a focus on bridging fundamental principles of fluid dynamics and structural dynamics to practical engineering applications. I am dedicated to creating computational frameworks that seamlessly integrate numerical methods with innovative machine learning (ML) techniques. My primary objectives are elucidating the underlying physics of complex turbulent flows and nonlinear structural dynamics, as well as their interactive effects using computational approach. To this end, I'm actively developing a GPU differentiable CFD solver (Diff-FlowFSI) based on JAX, and establishing hybrid neural models to enhance the simulation of FSI and turbulence.
 
