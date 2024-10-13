@@ -4,7 +4,7 @@ title: "AI-aided Computational Fluid Dynamics (CFD)"
 collection: research
 ---
 
-<video width="1152" height="864" controls>
+<video width="864" height="664" controls>
   <source src="/images/thrust1.mp4" type="video/mp4">
 </video>
 
