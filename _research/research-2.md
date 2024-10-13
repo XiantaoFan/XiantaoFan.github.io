@@ -1,6 +1,6 @@
 ---
 title: "AI-aided Computational Fluid Dynamics (CFD)"
-excerpt: <br/><img src='/images/thrust1.png'>
+# excerpt: <br/><img src='/images/thrust1.png'>
 collection: research
 ---
 

@@ -1,6 +1,6 @@
 ---
 title: "FSI/turbulence physics in versatile applications"
-excerpt: <br/><img src='/images/thrust2.png'>
+# excerpt: <br/><img src='/images/thrust2.png'>
 collection: research
 ---
 
