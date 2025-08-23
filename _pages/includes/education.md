@@ -1,16 +1,16 @@
 # <i class="fa-solid fa-fw fa-graduation-cap" style="color: #73b54a"></i> Education {#education}
 
-- Ph.D. in Mechanical Engineering, <a href="#" class="show-notice-link" data-target="TJU" data-display-style="flex" style="color: var(--text-color); text-decoration-color: #8e6f3e;">Tianjin University</a>, 2018 - 2022 <br>
-  <div id="TJU" class="notice--info" markdown="1" style="display: none; background-color: #ebd99f; align-items: center; justify-content: center; gap: 1em; flex-wrap: wrap; min-width: 50%; width: fit-content; margin-left: 0;">
+- Ph.D. in Mechanical Engineering, <a href="#" class="show-notice-link" data-target="TJU01" data-display-style="flex" style="color: var(--text-color); text-decoration-color:  #00468c;">Tianjin University</a>, 2018 - 2022 <br>
+  <div id="TJU01" class="notice--info" markdown="1" style="display: none; background-color: #ebd99f; align-items: center; justify-content: center; gap: 1em; flex-wrap: wrap; min-width: 50%; width: fit-content; margin-left: 0;">
 
   ![TJU logo]({{ "/images/university-logos/tju.png" | relative_url }}){: style="width: 6em;" }
 
 
   </div>
-- M.S. in Mechanical Engineering, <a href="#" class="show-notice-link" data-target="TJU" data-display-style="flex" style="color: var(--text-color); text-decoration-color: #bb4100;">Tianjin University</a>, 2016 - 2022 <br>
-  <div id="TJU" class="notice--info" markdown="1" style="display: none; background-color: #ffaf80; align-items: center; justify-content: center; gap: 1em; flex-wrap: wrap; min-width: 50%; width: fit-content; margin-left: 0;">
+- M.S. in Mechanical Engineering, <a href="#" class="show-notice-link" data-target="TJU02" data-display-style="flex" style="color: var(--text-color); text-decoration-color:  #00468c;">Tianjin University</a>, 2016 - 2022 <br>
+  <div id="TJU02" class="notice--info" markdown="1" style="display: none; background-color: #ffaf80; align-items: center; justify-content: center; gap: 1em; flex-wrap: wrap; min-width: 50%; width: fit-content; margin-left: 0;">
 
-  ![TJU logo]({{ "/images/university-logos/tju.png" | relative_url }}){: style="width: 4.5em;" }
+  ![TJU logo]({{ "/images/university-logos/tju.png" | relative_url }}){: style="width: 6em;" }
 
 
   </div>
