@@ -14,5 +14,5 @@ The curriculum vitae is temporarily unavailable. I will update it ASAP.
 </div>
 
 <p align="center">
-  <img src="/images/research_agenda/resharch_agenda2025.jpg" alt="Figure description" width="500"/>
+  <img src="/images/research_agenda/resharch_agenda2025.jpg" alt="Figure description" width="1000"/>
 </p>
