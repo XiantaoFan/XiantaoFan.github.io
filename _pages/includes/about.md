@@ -1,4 +1,4 @@
-I am a Postdoctoral Associate at Cornell University, working with Prof. Jian-Xun Wang (https://www.engineering.cornell.edu/people/jian-xun-wang/). Previously, I was a Postdoctoral Fellow at the University of Notre Dame. I received both my Ph.D. and B.S. degrees from Tianjin University.
+I am a Postdoctoral Associate at Cornell University, working with [Prof. Jian-Xun Wang](https://www.engineering.cornell.edu/people/jian-xun-wang/). Previously, I was a Postdoctoral Fellow at the University of Notre Dame. I received both my Ph.D. and B.S. degrees from Tianjin University.
 
 My research focuses on developing differentiable computational frameworks that tightly integrate advanced numerical algorithms with machine learning techniques. I apply these methods to study fluid–structure interactions (FSI) and turbulence, with broad applications in soft robotics, civil infrastructure, renewable energy, and advanced manufacturing.
 
