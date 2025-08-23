@@ -7,19 +7,19 @@
 <div class='paper-box'>
 <div class='paper-box-image'>
 <div markdown="1">
-<div class="badge-image">2025</div>
-![Diff-FlowFSI]({{ "/images/publication-teaser/solver_diff_flowfsi.gif" | relative_url }}){: width="60%" }
+<div class="badge-image">CMAME 2025</div>
+![Diff-FlowFSI]({{ "/images/publication-teaser/solver_diff_flowfsi.gif" | relative_url }}){: width="100%" }
 </div>
 </div>
 <div class='paper-box-text' markdown="1">
 
 [Diff-FlowFSI: A GPU-Optimized Differentiable CFD Platform for High-Fidelity Turbulence and FSI Simulations](https://arxiv.org/pdf/2505.23940)<br>
 **Xiantao Fan**, Xin-yang Liu, Meng Wang, Jian-Xun Wang<br>
-IEEE/CVF Conference on Computer Vision and Pattern Recognition (CVPR), 2025<br>
-[[arXiv](https://arxiv.org/abs/2503.23606)]
+Computer Methods in Applied Mechanics and Engineering, 2025<br>
 
-</div>
-</div>
+
+<!-- </div>
+</div> -->
 
 <!-- CT-Bound
 <div class='paper-box'>
@@ -43,6 +43,6 @@ IEEE 26th International Workshop on Multimedia Signal Processing (MMSP), 2024<br
 **Xiantao Fan**, Deepak Akhare, Jian-Xun Wang<br>
 Computer Methods in Applied Mechanics and Engineering, 2025
 
-- <span class="badge-text">JCP </span> [Differentiable hybrid neural modeling for fluid-structure interaction](https://www.sciencedirect.com/science/article/pii/S0021999123006794)<br>
+- <span class="badge-text">JCP 2024</span> [Differentiable hybrid neural modeling for fluid-structure interaction](https://www.sciencedirect.com/science/article/pii/S0021999123006794)<br>
 **Xiantao Fan**, Jian-Xun Wang<br>
-Journal of Computational Physics, 2025
+Journal of Computational Physics, 2024
