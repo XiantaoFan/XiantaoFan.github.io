@@ -8,10 +8,7 @@ html {
 }
 
 body {
-  margin: 0;
-  padding: 0;
-  padding-bottom: 9em;
-  color: $text-color;
+  color: var(--text-color);
   font-family: $global-font-family;
   line-height: 1.5;
 
@@ -22,14 +19,15 @@ body {
 }
 
 h1, h2, h3, h4, h5, h6 {
-  margin: 2em 0 0.5em;
+  margin: 1em 0 0.5em;
   line-height: 1.2;
   font-family: $header-font-family;
   font-weight: bold;
 }
 
 h1 {
-  margin-top: 0;
+  // margin: 4em 0 0.5em;
+  margin-top: 1em;
   font-size: $type-size-3;
 }
 
@@ -42,7 +40,7 @@ h3 {
 }
 
 h4 {
-  font-size: $type-size-6;
+  font-size: $type-size-5;
 }
 
 h5 {
@@ -58,16 +56,21 @@ small, .small {
 }
 
 p {
-  margin-bottom: 1.3em;
+  margin-bottom: 0.5em;
 }
 
 u,
 ins {
   text-decoration: none;
-  border-bottom: 1px solid $text-color;
+  border-bottom: 1px solid var(--text-color);
   a {
     color: inherit;
   }
+}
+
+ul {
+  padding-inline-start: 2em;
+  margin-block-start: 0.5em;
 }
 
 del a {
@@ -87,7 +90,7 @@ abbr[title],
 abbr[data-original-title] {
   text-decoration: none;
   cursor: help;
-  border-bottom: 1px dotted $text-color;
+  border-bottom: 1px dotted var(--text-color);
 }
 
 /* blockquotes */
@@ -109,20 +112,55 @@ blockquote {
   }
 }
 
-/* links */
+/* links and buttons */
 
 a {
-  &:focus {
-    @extend %tab-focus;
+  color: var(--link-color);
+  &:hover {
+    color: var(--link-color-hover);
   }
+}
 
+a,
+.cookie-consent-content button,
+.greedy-nav button,
+.greedy-nav .button-theme {
+
+  &:focus,
   &:hover,
   &:active {
     outline: 0;
   }
+
+  &:focus-visible {
+    @include tab-focus;
+  }
 }
 
 /* code */
+
+/* code
+
+   Usage:
+
+   1) inline code:
+
+   `code`
+
+   2) block: 
+   Highlight is defined in _syntax.scss
+   Genrated by generate-syntax.yml
+
+   ```python
+   def hello():
+       print("Hello, world!")  # my first code
+   ```
+
+   ========================================================================== */
+
+.highlight {
+  border-radius: $border-radius;
+}
 
 tt, code, kbd, samp, pre {
   font-family: $monospace;
@@ -130,6 +168,7 @@ tt, code, kbd, samp, pre {
 
 pre {
   overflow-x: auto; /* add scrollbars to wide code blocks*/
+  padding: 1rem;
 }
 
 p > code,
@@ -137,18 +176,21 @@ a > code,
 li > code,
 figcaption > code,
 td > code {
-  padding-top: 0.1rem;
-  padding-bottom: 0.1rem;
+  padding: 0.1rem 0.3rem;
   font-size: $type-size-6;
-  background: $code-background-color;
+  background: var(--code-background-color);
   border: 1px solid $lighter-gray;
   border-radius: $border-radius;
-  box-shadow: $box-shadow;
 
   &:before, &:after {
     letter-spacing: -0.2em;
     content: "\00a0"; /* non-breaking space*/
   }
+}
+
+pre > code {
+  font-size: $type-size-6;
+  white-space: pre;
 }
 
 /* horizontal rule */
@@ -157,7 +199,7 @@ hr {
   display: block;
   margin: 1em 0;
   border: 0;
-  border-top: 1px solid $border-color;
+  border-top: 1px solid var(--border-color);
 }
 
 /* lists */
@@ -179,12 +221,9 @@ li ol {
 /* Figures and images */
 
 figure {
-  display: -webkit-box;
   display: flex;
-  -webkit-box-pack: justify;
-          justify-content: space-between;
-  -webkit-box-align: start;
-          align-items: flex-start;
+  justify-content: space-between;
+  align-items: flex-start;
   flex-wrap: wrap;
   margin: 2em 0;
 
@@ -197,7 +236,6 @@ figure {
   img {
     width: 100%;
     border-radius: $border-radius;
-    -webkit-transition: $global-transition;
     transition: $global-transition;
   }
 
@@ -236,7 +274,7 @@ figure {
 
 figcaption {
   margin-bottom: 0.5em;
-  color: mix(#fff, $text-color, 25%);
+  color: var(--text-color);
   font-family: $caption-font-family;
   font-size: $type-size-6;
 
@@ -244,7 +282,6 @@ figcaption {
     color: inherit;
     text-decoration: none;
     border-bottom: 1px solid $light-gray;
-    -webkit-transition: $global-transition;
     transition: $global-transition;
 
     &:hover {
@@ -309,7 +346,6 @@ nav {
    Global animation transition
    ========================================================================== */
 
-b, i, strong, em, blockquote, p, q, span, figure, img, h1, h2, header, input, a, tr, td, form button, input[type="submit"], .btn, .highlight, .archive__item-teaser {
-  -webkit-transition: $global-transition;
+b, i, strong, em, blockquote, p, q, span, figure, img, h1, h2, header, a, tr, td, .highlight {
   transition: $global-transition;
 }

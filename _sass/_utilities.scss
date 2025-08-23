@@ -54,10 +54,10 @@ body:hover .visually-hidden button {
   font-size: 1em;
   font-weight: bold;
   padding: 15px 23px 14px;
-  background: #fff;
-  z-index: 100000;
+  background: var(--background-color);
+  z-index: 10000;
   text-decoration: none;
-  box-shadow: 0 0 2px 2px rgba(0,0,0,.6);
+  box-shadow: var(--box-shadow);
 }
 
 
@@ -67,16 +67,40 @@ body:hover .visually-hidden button {
 
 .skip-link {
   position: fixed;
-  z-index: 20;
-  margin: 0;
-  font-family: $sans-serif;
-  white-space: nowrap;
-}
+  top: 0.5rem;
+  left: 50%;
+  transform: translateX(-50%);
+  z-index: 8000;
 
-.skip-link li {
-  height: 0;
-  width: 0;
-  list-style: none;
+  display: flex;
+  gap: 1rem;
+  padding: .5rem;
+  background: $lighter-gray;
+  border-radius: $border-radius;
+  box-shadow: var(--box-shadow);
+  opacity: 0;
+  pointer-events: none;
+  transition: $global-transition;
+
+  &:has(a:focus) {
+    opacity: 1;
+    pointer-events: auto;
+  }
+
+  a {
+    color: #fff;
+    padding: .5rem;
+    background: $primary-color;
+    font-family: $sans-serif;
+    font-size: $type-size-5;
+    text-decoration: none;
+    border-radius: $border-radius;
+    transition: $global-transition;
+
+    &:focus {
+      background: var(--link-color);
+    }
+  }
 }
 
 
@@ -102,19 +126,6 @@ body:hover .visually-hidden button {
 
 .text-nowrap {
   white-space: nowrap;
-}
-
-
-/*
-   Alignment
-   ========================================================================== */
-
-/* clearfix */
-
-.cf { clear: both; }
-
-.wrapper {
-  @include container();
 }
 
 
@@ -160,7 +171,7 @@ body:hover .visually-hidden button {
 
 .full {
   @include breakpoint($large){
-    margin-right: -1 * span(2.5 of 12) !important;
+    margin-right: -20% !important;
   }
 }
 
@@ -186,17 +197,13 @@ body:hover .visually-hidden button {
     color: #000;
   }
 
-  .fa-behance,
-  .fa-behance-square {
-    color: $behance-color;
-  }
-
-  .fa-dribbble {
+  .fa-dribbble,
+  .fa-square-dribbble {
     color: $dribbble-color;
   }
 
   .fa-facebook,
-  .fa-facebook-square {
+  .fa-square-facebook {
     color: $facebook-color;
   }
 
@@ -209,78 +216,54 @@ body:hover .visually-hidden button {
   }
 
   .fa-github,
-  .fa-github-alt,
-  .fa-github-square {
+  .fa-square-github {
     color: $github-color;
   }
 
-  .fa-google-plus,
-  .fa-google-plus-square {
-    color: $google-plus-color;
-  }
-
-  .fa-instagram {
+  .fa-instagram,
+  .fa-square-instagram {
     color: $instagram-color;
   }
 
   .fa-lastfm,
-  .fa-lastfm-square {
+  .fa-square-lastfm {
     color: $lastfm-color;
   }
 
-  .fa-linkedin,
-  .fa-linkedin-square {
+  .fa-linkedin {
     color: $linkedin-color;
   }
 
   .fa-pinterest,
-  .fa-pinterest-p,
-  .fa-pinterest-square {
+  .fa-square-pinterest {
     color: $pinterest-color;
-  }
-
-  .fa-rss,
-  .fa-rss-square {
-    color: $rss-color;
   }
 
   .fa-soundcloud {
     color: $soundcloud-color;
   }
 
-  .fa-stack-exchange,
-  .fa-stack-overflow {
-    color: $stackoverflow-color;
-  }
-
   .fa-tumblr,
-  .fa-tumblr-square {
+  .fa-square-tumblr {
     color: $tumblr-color;
   }
 
-  .fa-twitter,
-  .fa-twitter-square {
-    color: $twitter-color;
-  }
-
-  .fa-vimeo,
-  .fa-vimeo-square {
-    color: $vimeo-color;
-  }
-
-  .fa-vine {
-    color: $vine-color;
-  }
-
   .fa-youtube,
-  .fa-youtube-square,
-  .fa-youtube-play {
+  .fa-square-youtube {
     color: $youtube-color;
   }
 
   .fa-xing,
-  .fa-xing-square {
+  .fa-square-xing {
     color: $xing-color;
+  }
+
+  .fa-google-scholar {
+    color: $googlescholar-color;
+  }
+
+  .fa-envelope {
+    color: $envelope-color;
   }
 }
 
@@ -293,9 +276,8 @@ body:hover .visually-hidden button {
   position: relative;
   width: $navicon-width;
   height: $navicon-height;
-  background: #fff;
+  background: var(--background-color);
   margin: auto;
-  -webkit-transition: 0.3s;
   transition: 0.3s;
 
   &:before,
@@ -305,8 +287,7 @@ body:hover .visually-hidden button {
     left: 0;
     width: $navicon-width;
     height: $navicon-height;
-    background: #fff;
-    -webkit-transition: 0.3s;
+    background: var(--background-color);
     transition: 0.3s;
   }
 
@@ -325,21 +306,17 @@ body:hover .visually-hidden button {
 
   /* overlay the lines by setting both their top values to 0*/
   &:before, &:after{
-    -webkit-transform-origin: 50% 50%;
-        -ms-transform-origin: 50% 50%;
-            transform-origin: 50% 50%;
+    transform-origin: 50% 50%;
     top: 0;
     width: $navicon-width;
   }
 
   /* rotate the lines to form the x shape*/
   &:before{
-    -webkit-transform: rotate3d(0,0,1,45deg);
-            transform: rotate3d(0,0,1,45deg);
+    transform: rotate3d(0,0,1,45deg);
   }
   &:after{
-    -webkit-transform: rotate3d(0,0,1,-45deg);
-            transform: rotate3d(0,0,1,-45deg);
+    transform: rotate3d(0,0,1,-45deg);
   }
 }
 
@@ -350,10 +327,8 @@ body:hover .visually-hidden button {
 
 .sticky {
   @include breakpoint($large) {
-    @include clearfix();
-    position: -webkit-sticky;
     position: sticky;
-    top: 2em;
+    top: 6em;
 
     > * {
       display: block;
@@ -364,71 +339,25 @@ body:hover .visually-hidden button {
 
 /*
    Wells
+
+   Usage:
+   <div class="well">
+     <h3>Important</h3>
+     <p>This is a "well" section.</p>
+   </div>
    ========================================================================== */
 
 .well {
-  min-height: 20px;
-  padding: 19px;
-  margin-bottom: 20px;
-  background-color: #f5f5f5;
-  border: 1px solid #e3e3e3;
+  padding: 1.5rem;
+  margin-bottom: 2rem;
+  background-color: var(--background-color-emph);
+  border: 1px solid var(--text-color);
   border-radius: $border-radius;
-  box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.05);
-}
+  box-shadow: var(--box-shadow);
 
-
-/*
-   Modals
-   ========================================================================== */
-
-.show-modal {
-  overflow: hidden;
-  position: relative;
-
-  &:before {
-    position: absolute;
-    content: "";
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 100%;
-    z-index: 999;
-    background-color: rgba(255, 255, 255, 0.85);
-  }
-
-  .modal {
-    display: block;
-  }
-}
-
-.modal {
-  display: none;
-  position: fixed;
-  width: 300px;
-  top: 50%;
-  left: 50%;
-  margin-left: -150px;
-  margin-top: -150px;
-  min-height: 0;
-  z-index: 9999;
-  background: #fff;
-  border: 1px solid $border-color;
-  border-radius: $border-radius;
-  box-shadow: $box-shadow;
-
-  &__title {
-    margin: 0;
-    padding: 0.5em 1em;
-  }
-
-  &__supporting-text {
-    padding: 0 1em 0.5em 1em;
-  }
-
-  &__actions {
-    padding: 0.5em 1em;
-    border-top: 1px solid $border-color;
-  }
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
 }
 
 
@@ -437,12 +366,12 @@ body:hover .visually-hidden button {
    ========================================================================== */
 
 .footnote {
-  color: mix(#fff, $gray, 25%);
+  color: var(--text-color);
   text-decoration: none;
 }
 
 .footnotes {
-  color: mix(#fff, $gray, 25%);
+  color: var(--text-color);
 
   ol, li, p {
     margin-bottom: 0;
@@ -451,7 +380,7 @@ body:hover .visually-hidden button {
 }
 
 a.reversefootnote {
-  color: $gray;
+  color: var(--text-color);
   text-decoration: none;
 
   &:hover {
