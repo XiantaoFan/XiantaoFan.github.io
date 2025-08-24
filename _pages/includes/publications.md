@@ -36,15 +36,6 @@ Pan Du, Meet Hemant Parikh, **Xiantao Fan**, Xin-Yang Liu, Jian-Xun Wang<br>
 Nature Communications, 2024<br>
 <!-- [[arXiv](https://arxiv.org/abs/2403.16494)] [[Code](https://github.com/guo-research-group/CT-Bound)] -->
 
-
-</div>
-</div>
-- <span class="badge-text">CMAME 2025</span> [Bayesian conditional diffusion models for versatile spatiotemporal turbulence generation](https://doi.org/10.1016/j.cma.2024.117023)<br>
-Han Gao, Xu Han, **Xiantao Fan**, Luning Sun, Li-Ping Liu, Lian Duan, Jian-Xun Wang<br>
-Computer Methods in Applied Mechanics and Engineering, 2024
-
-
-
 </div>
 </div>
 
@@ -52,9 +43,21 @@ Computer Methods in Applied Mechanics and Engineering, 2024
 **Xiantao Fan**, Deepak Akhare, Jian-Xun Wang<br>
 Computer Methods in Applied Mechanics and Engineering, 2025
 
+
+</div>
+</div>
+
 - <span class="badge-text">JCP 2024</span> [Differentiable hybrid neural modeling for fluid-structure interaction](https://www.sciencedirect.com/science/article/pii/S0021999123006794)<br>
 **Xiantao Fan**, Jian-Xun Wang<br>
 Journal of Computational Physics, 2024
+
+</div>
+</div>
+- <span class="badge-text">CMAME 2024</span> [Bayesian conditional diffusion models for versatile spatiotemporal turbulence generation](https://doi.org/10.1016/j.cma.2024.117023)<br>
+Han Gao, Xu Han, **Xiantao Fan**, Luning Sun, Li-Ping Liu, Lian Duan, Jian-Xun Wang<br>
+Computer Methods in Applied Mechanics and Engineering, 2024
+
+
 
 </div>
 </div>
