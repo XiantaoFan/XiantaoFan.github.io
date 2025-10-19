@@ -13,7 +13,7 @@
 </div>
 <div class='paper-box-text' markdown="1">
 
-[Diff-FlowFSI: A GPU-Optimized Differentiable CFD Platform for High-Fidelity Turbulence and FSI Simulations](https://arxiv.org/pdf/2505.23940)<br>
+[Diff-FlowFSI: A GPU-Optimized Differentiable CFD Platform for High-Fidelity Turbulence and FSI Simulations](https://doi.org/10.1016/j.cma.2025.118455)<br>
 **Xiantao Fan**, Xin-yang Liu, Meng Wang, Jian-Xun Wang<br>
 Computer Methods in Applied Mechanics and Engineering, 2025<br>
 
