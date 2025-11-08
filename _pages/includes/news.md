@@ -6,18 +6,7 @@
 
 - [Nov, 2025] New features in **Diff-FlowFSI**: differentiable complex geometry and high-order, sharp immersed boundary methods.
 
-
-</div>
-</div>
-
-<!-- Diff-FlowFSI Feature -->
-<div class='paper-box'>
-<div class='paper-box-image'>
-<div markdown="1">
-![Diff-FlowFSI: Complex Geometry & Sharp IBM]({{ "/images/publication-teaser/Diff_flowfsi_fish.gif" | relative_url }}){: width="100%" }
-</div>
-</div>
-<div class='paper-box-text' markdown="1">
-<p>Visualization of new Diff-FlowFSI capabilities, including differentiable complex geometries and high-order, sharp immersed boundary methods for fluid–structure interaction simulations.</p>
-</div>
-</div>
+<figure style="width:60%; margin: 0 auto;">
+  <img src="{{ '/images/publication-teaser/Diff_flowfsi_fish.gif' | relative_url }}" style="width:100%;">
+  <figcaption>Visualization of new Diff-FlowFSI capabilities: differentiable complex geometries and sharp IBM.</figcaption>
+</figure>
