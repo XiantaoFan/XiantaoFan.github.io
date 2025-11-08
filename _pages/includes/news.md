@@ -4,9 +4,9 @@
 
 - [Nov. 23-25, 2025] I will attend APS DFD in Houston and give a talk titled “Differentiable Hybrid Neural-CFD Modeling of Spatiotemporal Dynamics in 3D Wall-Bounded Turbulence.”
 
-- [Nov, 2025] New features in **Diff-FlowFSI**: differentiable complex geometry and high-order, sharp immersed boundary methods.
+- [Nov, 2025] New features in **Diff-FlowFSI**: differentiable complex geometry and high-order, sharp immersed boundary methods. Open to structural optimization and morphing.
 
-<figure style="width:60%; margin: 0 auto;">
-  <img src="{{ '/images/publication-teaser/Diff_flowfsi_fish.gif' | relative_url }}" style="width:100%;">
-  <figcaption>Visualization of new Diff-FlowFSI capabilities: differentiable complex geometries and sharp IBM.</figcaption>
+<figure style="max-width: 100%; margin: 1em auto; text-align: center;">
+  <img src="{{ '/images/publication-teaser/Diff_flowfsi_fish.gif' | relative_url }}" style="width:80%; height:auto;">
+  <figcaption style="font-size:0.9em; margin-top:0.5em;">Visualization of new Diff-FlowFSI capabilities: Fish locomotion.</figcaption>
 </figure>
