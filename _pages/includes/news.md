@@ -6,7 +6,7 @@
 
 - [Nov, 2025] New features in **Diff-FlowFSI**: differentiable complex geometry and high-order, sharp immersed boundary methods. Open to structural optimization and morphing.
 
-<figure style="max-width: 100%; margin: 1em auto; text-align: center;">
+<figure style="max-width: 80%; margin: 1em auto; text-align: center;">
   <img src="{{ '/images/publication-teaser/Diff_flowfsi_fish.gif' | relative_url }}" style="width:80%; height:auto;">
   <figcaption style="font-size:0.9em; margin-top:0.5em;">Visualization of new Diff-FlowFSI capabilities: Fish locomotion.</figcaption>
 </figure>
