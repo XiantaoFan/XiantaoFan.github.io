@@ -1,5 +1,7 @@
 # <i class="fa-solid fa-fw fa-fire" style="color: #eb6a14;"></i> News {#news}
 
+- [2026] I will be joining the Early Career Editorial Board of [Journal of Fluids and Structure](https://www.sciencedirect.com/journal/journal-of-fluids-and-structures), a leading journal in the field of fluid–structure interactions. I look forward to contributing to and serving our research community.
+
 - [Dec. 15-19, 2025] I will attend the AGU Annual Meeting in New Orleans and look forward to discussing differentiable physics and AI for sustainable environments.
 
 - [Nov. 23-25, 2025] I will attend APS DFD in Houston and give a talk titled “Differentiable Hybrid Neural-CFD Modeling of Spatiotemporal Dynamics in 3D Wall-Bounded Turbulence.”
