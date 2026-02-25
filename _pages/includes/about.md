@@ -7,11 +7,7 @@ My research focuses on developing differentiable computational frameworks that t
 
 Prior to Purdue, I completed my M.S. in [Khoury College of Computer Sciences](https://www.khoury.northeastern.edu/) at [Northeastern University](https://www.northeastern.edu) under the supervision of [Prof. Lawson L.S. Wong](http://www.ccs.neu.edu/home/lsw/). Previously, I received my B.Eng. and M.S. in Department of Process Equipment and Control Engineering at [Tianjin University](http://www.tju.edu.cn), advised by [Prof. Liyan Liu](http://chemeng.tju.edu.cn/cn/szdw?type=detail&id=52). -->
 
-<i class="fa-solid fa-fw fa-file"></i> Download my <a href="#" class="show-notice-link" data-target="CV">curriculum vitae</a> (temporarily unavailable).
-<div id="CV" class="notice--info" markdown="1" style="display: none;">
-#### Heads up!
-The curriculum vitae is temporarily unavailable. I will update it ASAP.
-</div>
+<i class="fa-solid fa-fw fa-file"></i> Download my <a href="/images/Xiantao_CV.pdf">curriculum vitae</a>.
 
 <p align="center">
   <img src="/images/research_agenda/resharch_agenda2025.jpg" alt="Figure description" width="1000"/>
