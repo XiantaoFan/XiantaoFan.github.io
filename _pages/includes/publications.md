@@ -8,7 +8,7 @@
 <div class='paper-box-image'>
 <div markdown="1">
 <div class="badge-image">PRF 2026</div>
-![Diff-FlowFSI]({{ "/images/publication-teaser/wall_pressure.pdf" | relative_url }}){: width="100%" }
+![Diff-FlowFSI]({{ "/images/publication-teaser/wall_pressure.png" | relative_url }}){: width="100%" }
 </div>
 </div>
 <div class='paper-box-text' markdown="1">
