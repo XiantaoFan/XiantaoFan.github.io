@@ -7,7 +7,7 @@
 
 
   </div>
-- M.S. in Mechanical Engineering, <a href="#" class="show-notice-link" data-target="TJU02" data-display-style="flex" style="color: var(--text-color); text-decoration-color:  #00468c;">Tianjin University</a>, 2016 - 2022 <br>
+- M.S. in Mechanical Engineering, <a href="#" class="show-notice-link" data-target="TJU02" data-display-style="flex" style="color: var(--text-color); text-decoration-color:  #00468c;">Tianjin University</a>, 2016 - 2018 <br>
   <div id="TJU02" class="notice--info" markdown="1" style="display: none; background-color: #ffaf80; align-items: center; justify-content: center; gap: 1em; flex-wrap: wrap; min-width: 50%; width: fit-content; margin-left: 0;">
 
   ![TJU logo]({{ "/images/university-logos/tju.png" | relative_url }}){: style="width: 6em;" }

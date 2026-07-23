@@ -7,6 +7,22 @@
 <div class='paper-box'>
 <div class='paper-box-image'>
 <div markdown="1">
+<div class="badge-image">PRF 2026</div>
+![Diff-FlowFSI]({{ "/images/publication-teaser/wall_pressure.pdf" | relative_url }}){: width="100%" }
+</div>
+</div>
+<div class='paper-box-text' markdown="1">
+
+[Generative Reconstruction of Spatiotemporal Wall-Pressure in Turbulent Boundary Layers via Patchwise Latent Diffusion](https://link.aps.org/doi/10.1103/ln5n-v7db)<br>
+**Xiantao Fan**, Meet Hemant Parikh, Yi Liu, Xin-Yang Liu, Junyi Guo, Meng Wang, Jian-Xun Wang<br>
+Physical Review Fluids, 2026<br>
+
+</div>
+</div>
+
+<div class='paper-box'>
+<div class='paper-box-image'>
+<div markdown="1">
 <div class="badge-image">CMAME 2025</div>
 ![Diff-FlowFSI]({{ "/images/publication-teaser/solver_diff_flowfsi.gif" | relative_url }}){: width="100%" }
 </div>
