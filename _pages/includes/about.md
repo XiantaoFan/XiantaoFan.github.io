@@ -63,8 +63,12 @@ Wind-tunnel experiments, reduced-order models, and differentiable simulation rev
 
 ### Future Directions
 
-<figure style="max-width:650px; margin: 1em auto; text-align: center;">
-  <img src="{{ '/images/research_agenda/future.png' | relative_url }}" style="width:100%; height:auto;">
+<figure style="max-width:325px; margin: 1em auto; text-align: center;">
+  <img src="{{ '/images/research_agenda/future.png' | relative_url }}" class="show-notice-link" data-target="future-desc" data-display-style="block" data-duration="15000" style="width:100%; height:auto; cursor: pointer;">
+  <figcaption style="font-size:0.85em; color: var(--text-color-light, #888); margin-top:0.3em;">Click for a short description</figcaption>
 </figure>
+<div id="future-desc" class="notice--info" markdown="1" style="display: none; max-width:650px; margin: 0 auto 1em auto;">
 
 Looking ahead, I aim to grow this into a fully differentiable multiphysics pipeline—coupling structural, thermal, and other fields with the flow—and embed learned coarse-graining that stays stable outside its training regime, enabling fast, physically faithful prediction and design at scales beyond conventional high-fidelity solvers. I will extend these tools from analyzing FSI to designing autonomous systems whose behavior is inseparable from the flow around them (bio-inspired robots, autonomous vehicles), and build an agentic AI layer that reasons over the solver's gradients to steer design, calibration, and control—making simulation, learning, and design one differentiable whole.
+
+</div>
