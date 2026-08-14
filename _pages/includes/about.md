@@ -1,6 +1,10 @@
 I am a Postdoctoral Associate at Cornell University, working with [Prof. Jian-Xun Wang](https://www.duffield.cornell.edu/people/jian-xun-wang/). Previously, I was a Postdoctoral Fellow at the University of Notre Dame. I received both my Ph.D. and B.S. degrees from Tianjin University.
 
-My research focuses on developing differentiable computational frameworks that tightly integrate advanced numerical algorithms with machine learning techniques. I apply these methods to study fluid–structure interactions (FSI) and turbulence, with broad applications in soft robotics, civil infrastructure, renewable energy, and advanced manufacturing.
+My research is **differentiable computation and embedded learning for nonlinear, coupled dynamical systems in mechanics**—fluid, structural, and their interaction (FSI)—grounded in physical understanding and proven on real engineering systems, toward intelligent computation that serves understanding, prediction, and inverse design. This spans three connected thrusts:
+
+- **Differentiable computation** for multiphysics simulation — GPU-native solvers that make gradient-based inverse design tractable on high-dimensional, coupled systems.
+- **Learning within physics-based solvers** — neural components trained end-to-end through the solver dynamics, so models stay stable and generalizable over long rollouts.
+- **Fluid–structure interaction**, from mechanism to deployment — explaining, predicting, and controlling flow-induced vibration in real multi-body engineering systems.
 
 <mark>I'm actively searching for a tenure-track faculty position in mechanical, aerospace, civil, or computing-related departments. Please reach out to me if you think my background fits the position.</mark>
 
@@ -10,6 +14,36 @@ Prior to Purdue, I completed my M.S. in [Khoury College of Computer Sciences](ht
 
 <i class="fa-solid fa-fw fa-file"></i> Download my <a href="/images/Xiantao_CV.pdf">curriculum vitae</a>.
 
-<p align="center">
-  <img src="/images/research_agenda/resharch_agenda2025.jpg" alt="Figure description" width="1000"/>
-</p>
+# <i class="fa-solid fa-fw fa-diagram-project" style="color: #6a4fbf"></i> Research Focus {#research-focus}
+
+### Thrust I: Differentiable Computation for Dynamical Systems
+
+<figure style="max-width:650px; margin: 1em auto; text-align: center;">
+  <img src="{{ '/images/research_agenda/thrust1.png' | relative_url }}" style="width:100%; height:auto;">
+</figure>
+
+A GPU-native differentiable platform for turbulence and FSI. **Diff-FlowFSI** is end-to-end differentiable and roughly 60× faster than conventional CPU-based solvers, extended with differentiable geometry (**Warp-Geo**) for shape and topology optimization, a multigrid-based differentiable sparse linear solver (**JAX-AMG**), and, in a manufacturing setting, coupled electrochemical machining (**JAX-ECM**).
+
+### Thrust II: Learning Within Physics-Based Solvers
+
+<figure style="max-width:650px; margin: 1em auto; text-align: center;">
+  <img src="{{ '/images/research_agenda/thrust2.png' | relative_url }}" style="width:100%; height:auto;">
+</figure>
+
+Neural networks embedded inside differentiable solvers and trained end-to-end, *a posteriori*, through the dynamics they serve rather than against static labels. This yields hybrid numerical schemes, jointly learned turbulence closures, and generative models of spatiotemporal flow fields that stay stable and generalizable outside their training range.
+
+### Thrust III: Fluid–Structure Interaction, from Mechanism to Deployment
+
+<figure style="max-width:650px; margin: 1em auto; text-align: center;">
+  <img src="{{ '/images/research_agenda/thrust3.png' | relative_url }}" style="width:100%; height:auto;">
+</figure>
+
+Wind-tunnel experiments, reduced-order models, and differentiable simulation reveal the mechanisms of flow-induced vibration in multi-body systems, translated into control strategies—meta-surfaces, helical strakes—deployed on real systems: marine risers, towers, heat exchangers, pressure vessels, and flow-energy harvesters.
+
+### Future Directions
+
+<figure style="max-width:650px; margin: 1em auto; text-align: center;">
+  <img src="{{ '/images/research_agenda/future.png' | relative_url }}" style="width:100%; height:auto;">
+</figure>
+
+Looking ahead, I aim to grow this into a fully differentiable multiphysics pipeline—coupling structural, thermal, and other fields with the flow—and embed learned coarse-graining that stays stable outside its training regime, enabling fast, physically faithful prediction and design at scales beyond conventional high-fidelity solvers. I will extend these tools from analyzing FSI to designing autonomous systems whose behavior is inseparable from the flow around them (bio-inspired robots, autonomous vehicles), and build an agentic AI layer that reasons over the solver's gradients to steer design, calibration, and control—making simulation, learning, and design one differentiable whole.
