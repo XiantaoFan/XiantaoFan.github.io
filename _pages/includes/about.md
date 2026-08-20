@@ -49,7 +49,7 @@ Neural networks embedded inside differentiable solvers and trained end-to-end, *
 
 </div>
 
-### Thrust III: Fluid–Structure Interaction, from Mechanism to Deployment
+### Thrust III: Fluid–Structure Interaction and turbulence, from Mechanism to Deployment
 
 <figure style="max-width:325px; margin: 1em auto; text-align: center;">
   <img src="{{ '/images/research_agenda/thrust3.png' | relative_url }}" class="show-notice-link" data-target="thrust3-desc" data-display-style="block" data-duration="15000" style="width:100%; height:auto; cursor: pointer;">
@@ -57,7 +57,7 @@ Neural networks embedded inside differentiable solvers and trained end-to-end, *
 </figure>
 <div id="thrust3-desc" class="notice--info" markdown="1" style="display: none; max-width:650px; margin: 0 auto 1em auto;">
 
-Wind-tunnel experiments, reduced-order models, and differentiable simulation reveal the mechanisms of flow-induced vibration in multi-body systems, translated into control strategies—meta-surfaces, helical strakes—deployed on real systems: marine risers, towers, heat exchangers, pressure vessels, and flow-energy harvesters.
+Wind-tunnel experiments, reduced-order models, and differentiable simulation reveal the mechanisms of flow-induced vibration in multi-body systems under turbulent flows, translated into control strategies—meta-surfaces, helical strakes, and flow control—deployed on real systems: marine risers, towers, heat exchangers, pressure vessels, and flow-energy harvesters.
 
 </div>
 
@@ -69,6 +69,6 @@ Wind-tunnel experiments, reduced-order models, and differentiable simulation rev
 </figure>
 <div id="future-desc" class="notice--info" markdown="1" style="display: none; max-width:650px; margin: 0 auto 1em auto;">
 
-Looking ahead, I aim to grow this into a fully differentiable multiphysics pipeline—coupling structural, thermal, and other fields with the flow—and embed learned coarse-graining that stays stable outside its training regime, enabling fast, physically faithful prediction and design at scales beyond conventional high-fidelity solvers. I will extend these tools from analyzing FSI to designing autonomous systems whose behavior is inseparable from the flow around them (bio-inspired robots, autonomous vehicles), and build an agentic AI layer that reasons over the solver's gradients to steer design, calibration, and control—making simulation, learning, and design one differentiable whole.
+Looking ahead, I aim to grow this into a fully differentiable multiphysics pipeline—coupling fluid, structural, thermal, and other fields—and embed learned coarse-graining that stays stable outside its training regime, enabling fast, physically faithful prediction, design and control at scales beyond conventional high-fidelity solvers. I will apply these tools to designing autonomous systems whose behavior is inseparable from the flow around them (bio-inspired robots, autonomous vehicles), and build an agentic AI layer that reasons over the solver's gradients to steer design, calibration, and control—making simulation, learning, and design one differentiable whole.
 
 </div>
