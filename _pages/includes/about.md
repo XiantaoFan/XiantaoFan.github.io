@@ -63,7 +63,7 @@ Wind-tunnel experiments, reduced-order models, and differentiable simulation rev
 
 ### Future Directions
 
-<figure style="max-width:325px; margin: 1em auto; text-align: center;">
+<figure style="max-width:400px; margin: 1em auto; text-align: center;">
   <img src="{{ '/images/research_agenda/future.png' | relative_url }}" class="show-notice-link" data-target="future-desc" data-display-style="block" data-duration="15000" style="width:100%; height:auto; cursor: pointer;">
   <figcaption style="font-size:0.85em; color: var(--text-color-light, #888); margin-top:0.3em;">Click for a short description</figcaption>
 </figure>
