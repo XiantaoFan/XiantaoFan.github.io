@@ -7,7 +7,7 @@ My research is **differentiable computation and embedded learning for nonlinear,
 
 - **Differentiable computation** for multiphysics simulation — GPU-native solvers that make gradient-based inverse design tractable on high-dimensional, coupled systems.
 - **Learning within physics-based solvers** — neural components trained end-to-end through the solver dynamics, so models stay stable and generalizable over long rollouts.
-- **Fluid–structure interaction**, from mechanism to deployment — explaining, predicting, and controlling flow-induced vibration in real multi-body engineering systems.
+- **Fluid–structure interaction and turbulence**, from mechanism to deployment — explaining, predicting, and controlling flow-induced vibration of multi-body systems under turbulent flows in real engineering applications.
 
 </div>
 <div style="flex:1 1 260px; min-width:220px; max-width:340px; text-align:center;">
