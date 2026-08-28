@@ -6,7 +6,7 @@ I am a Postdoctoral Associate at Cornell University, working with [Prof. Jian-Xu
 My research is **differentiable computation and embedded learning for nonlinear, coupled dynamical systems in mechanics**—fluid, structural, and their interaction (FSI)—grounded in physical understanding and proven on real engineering systems, toward intelligent computation that serves understanding, prediction, and inverse design. This spans three connected thrusts:
 
 - **Differentiable computation** for multiphysics simulation — GPU-native solvers that make gradient-based inverse design tractable on high-dimensional, coupled systems.
-- **Learning within physics-based solvers** — neural components trained end-to-end through the solver dynamics, so models stay stable and generalizable over long rollouts.
+- **Learning within physics-based solvers** — neural components trained end-to-end through the solver dynamics, so models stay stable and generalizable over long rollouts and unseen scenarios.
 - **Fluid–structure interaction and turbulence**, from mechanism to deployment — explaining, predicting, and controlling flow-induced vibration of multi-body systems under turbulent flows in real engineering applications.
 
 </div>
