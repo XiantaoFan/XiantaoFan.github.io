@@ -14,9 +14,9 @@ baseurl                  : ""
 # google analytics
 google_analytics_id      : # get google_analytics_id from https://analytics.google.com/analytics/
 
-# Visitor map (https://clustrmaps.com): sign up, add this site, and paste the
-# value of the "d=" parameter from the generated widget code here.
-clustrmaps_id            :
+# Visitor map + page view counter (https://flagcounter.com). Full stats:
+# https://info.flagcounter.com/o2Bd
+flagcounter_id           : "o2Bd"
 
 # SEO Related
 google_site_verification : # get google_site_verification from https://search.google.com/search-console/about

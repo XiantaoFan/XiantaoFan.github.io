@@ -222,14 +222,9 @@
   margin-top: 1.5em;
   text-align: center;
 
-  .visitor-map__title {
-    margin: 0 0 0.5em;
-    font-size: $type-size-6;
-    text-transform: uppercase;
-    letter-spacing: 0.05em;
-  }
-
-  img, canvas, iframe {
+  img {
+    display: block;
+    margin: 0 auto;
     max-width: 100%;
   }
 }
